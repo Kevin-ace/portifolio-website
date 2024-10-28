@@ -1,0 +1,24 @@
+.skills {
+    padding: var(--spacing-lg) 0;
+    background: var(--bg-light);
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skill-tag {
+    padding: 0.5rem 1rem;
+    background: var(--accent);
+    color: white;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    /* transition: var(--transition); */
+}
+
+.skill-tag:hover {
+    transform: scale(1.05);
+}

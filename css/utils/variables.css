@@ -1,0 +1,25 @@
+:root {
+    /* Light theme */
+    --bg-light: #f8f9fa;
+    --text-light: #2d3436;
+    --accent: #6c5ce7;
+    --secondary: #a8a8a8;
+    
+    /* Dark theme */
+    --bg-dark: #1a1a1a;
+    --text-dark: #ffffff;
+    
+    /* Common */
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --border-radius: 1rem;
+    --transition: all 0.3s ease;
+    --container-width: 1200px;
+}
+
+[data-theme="dark"] {
+    --bg-light: #1a1a1a;
+    --text-light: #ffffff;
+    --secondary: #a0a0a0;
+}
