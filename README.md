@@ -1,14 +1,16 @@
-# KEVIN - Personal Portfolio
+# Personal Portfolio
 
-Welcome to my personal portfolio website! This project showcases my work as a Software Engineer, featuring projects, skills, education, and experience. 
+This portfolio website showcases my skills, projects, education, experience, and contact information. It is designed to be a central hub for potential collaborators, employers, and peers to learn more about my expertise and achievements. The live website can be accessed at: https://kevin-ace.github.io/portifolio-website
 
 ## Table of Contents
 
-- [KEVIN - Personal Portfolio](#kevin---personal-portfolio)
+- [Personal Portfolio](#personal-portfolio)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Contact](#contact)
+  - [Technology Stack](#technology-stack)
+    - [Frontend:](#frontend)
+    - [Libraries:](#libraries)
+    - [Hosting:](#hosting)
 
 ## Features
 
@@ -18,18 +20,19 @@ Welcome to my personal portfolio website! This project showcases my work as a So
 - **Project Links**: Access my GitHub repositories directly from the portfolio.
 - **Responsive Design**: Optimized for mobile and desktop devices.
 
-## Technologies Used
+## Technology Stack
+### Frontend:
 
-- HTML5
-- CSS3
-- JavaScript
-- GSAP (GreenSock Animation Platform)
-- Tailwind CSS
+HTML5
+CSS3
+JavaScript
+Tailwind CSS (for styling)
 
-## Contact
-Feel free to reach out for collaboration or inquiries:
+### Libraries:
 
-GitHub: Kevin-ace
-LinkedIn: Kevin Kipruto
-Email: kevinkipruto83@gmail.com
-Thank you for visiting my portfolio!
+GSAP (GreenSock Animation Platform) for animations.
+ScrollTrigger plugin for interactive scroll effects.
+
+### Hosting:
+
+GitHub Pages (Portfolio Website).
