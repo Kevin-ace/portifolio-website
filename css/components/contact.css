@@ -30,6 +30,8 @@ p {
 }
 .social-links img{
     border-radius: 50%;
+    mix-blend-mod: color-burn;
+    object-fit: contain;
 }
 .social-links a {
     color: var(--text-light);

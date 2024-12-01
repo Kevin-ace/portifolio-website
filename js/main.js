@@ -48,3 +48,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial call to set active link on page load
     setActiveLinkOnScroll();
 });
+
