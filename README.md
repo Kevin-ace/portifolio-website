@@ -23,15 +23,15 @@ This portfolio website showcases my skills, projects, education, experience, and
 ## Technology Stack
 ### Frontend:
 
-HTML5
-CSS3
-JavaScript
-Tailwind CSS (for styling)
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS (for styling)
 
 ### Libraries:
 
-GSAP (GreenSock Animation Platform) for animations.
-ScrollTrigger plugin for interactive scroll effects.
+- GSAP (GreenSock Animation Platform) for animations.
+- ScrollTrigger plugin for interactive scroll effects.
 
 ### Hosting:
 
