@@ -53,3 +53,24 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+.summary {
+    padding: var(--spacing-lg) 0;
+    background: var(--bg-light);
+    text-align: center;
+}
+
+.testimonials {
+    padding: var(--spacing-lg) 0;
+    background: var(--bg-light);
+    text-align: center;
+}
+
+.testimonial-card {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--spacing-md);
+}

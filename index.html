@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/icons/favicon.ico" />
   </head>
   <body>
     <nav class="navbar">
@@ -15,13 +16,13 @@
       </div>
       <div class="container">
         <div class="nav-links">
-          <a href="#home" class="nav-link">Home</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#skills" class="nav-link">Skills</a>
-          <a href="#experience" class="nav-link">Experience</a
-          ><a href="#education" class="nav-link">Education</a>
-          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#home" class="nav-link" aria-label="Home">Home</a>
+          <a href="#about" class="nav-link" aria-label="About">About</a>
+          <a href="#projects" class="nav-link" aria-label="Projects">Projects</a>
+          <a href="#skills" class="nav-link" aria-label="Skills">Skills</a>
+          <a href="#experience" class="nav-link" aria-label="Experience">Experience</a>
+          <a href="#education" class="nav-link" aria-label="Education">Education</a>
+          <a href="#contact" class="nav-link" aria-label="Contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -32,6 +33,15 @@
           <h1>Hey, I'm Kevin 👋</h1>
           <p>A passionate Software Engineer crafting digital experiences</p>
         </div>
+      </div>
+    </section>
+
+    <section class="summary" id="summary">
+      <div class="container">
+        <h2>Professional Summary</h2>
+        <p>
+          I am a seasoned Software Engineer with over 2 years of experience in developing scalable web applications and services. My expertise lies in full-stack development, cloud computing, and agile methodologies. I am passionate about leveraging technology to solve complex problems and drive business success.
+        </p>
       </div>
     </section>
 
@@ -48,21 +58,13 @@
         <div class="about-content">
           <div class="about-text">
             <p class="bio">
-              👋 Hi, I'm Kevin, a passionate Software Engineer dedicated to
-              creating impactful digital experiences. With expertise in Python,
-              JavaScript, React, Kotlin, Flutter, and more, I specialize in
-              building intuitive, user-centric solutions. Currently, I’m
-              pursuing a Bachelor’s in Computer Science at Laikipia University,
-              where I’ve honed skills in software engineering, algorithms, and
-              data structures. My projects range from real-time stock dashboards
-              to sentiment analysis tools and e-commerce platforms, showcasing
-              my versatility and commitment to solving real-world problems. I
-              bring strong backend knowledge using FastAPI and experience in
-              seamless frontend design with tools like Tailwind CSS. Beyond
-              coding, I enjoy exploring music production and engaging in fitness
-              routines, ensuring a balanced, creative approach to life. Always
-              open to exciting opportunities and collaborations, I aim to leave
-              a meaningful impact through technology.
+              👋 Hello! I'm Kevin, a dedicated Software Engineer with a passion for crafting innovative digital solutions. My expertise spans across Python, JavaScript, React, Kotlin, Flutter, and more, enabling me to build intuitive and user-centric applications. Currently, I am pursuing a Bachelor's degree in Computer Science at Laikipia University, where I have honed my skills in software engineering, algorithms, and data structures.
+            </p>
+            <p class="bio">
+              My portfolio showcases a diverse range of projects, from real-time stock dashboards to sentiment analysis tools and e-commerce platforms, reflecting my versatility and commitment to solving real-world problems. I possess strong backend development skills with FastAPI and excel in creating seamless frontend designs using tools like Tailwind CSS.
+            </p>
+            <p class="bio">
+              Beyond coding, I am an avid music producer and fitness enthusiast, which helps me maintain a balanced and creative approach to life. I am always open to exciting opportunities and collaborations, aiming to make a meaningful impact through technology. Let's connect and create something amazing together!
             </p>
           </div>
         </div>
@@ -71,8 +73,58 @@
 
     <section class="projects" id="projects">
       <div class="container">
-        <h2>Featured Projects</h2>
+        <h2>Featured Personal Projects</h2>
         <div class="project-grid">
+          <div class="project-card">
+            <h3>AfyaLink: Revolutionizing Healthcare Accessibility 🏥🌍</h3>
+            <p>
+              AfyaLink is an innovative digital platform designed to transform healthcare accessibility in Kenya by providing comprehensive, user-friendly healthcare facility information and navigation services.
+            </p>
+            <h4>Mission</h4>
+            <p>
+              Empower individuals to make informed healthcare decisions by offering real-time, accurate, and easily accessible information about medical facilities.
+            </p>
+            <h4>Key Features</h4>
+            <ul>
+              <li>🗺️ Intelligent Healthcare Facility Finder</li>
+              <li>🔍 Advanced Search and Filtering</li>
+              <li>🏥 Detailed Facility Profiles</li>
+              <li>🛡️ Secure User Authentication</li>
+              <li>📊 Interactive Healthcare Dashboard</li>
+            </ul>
+            <a
+              href="https://github.com/Kevin-ace/afyalink"
+              target="_blank"
+            >
+              <img
+                src="assets/icons/github-icon.png"
+                alt="GitHub link"
+                width="80px"
+              />
+            </a>
+          </div>
+          <div class="project-card">
+            <h3>AI Therapist</h3>
+            <p>
+              AI Therapist is an empathetic conversational AI application designed to provide supportive and understanding interactions, simulating a therapeutic conversation using OpenAI's GPT model.
+            </p>
+            <ul>
+              <li>Natural language processing</li>
+              <li>Empathetic conversation generation</li>
+              <li>Flask-based web application</li>
+              <li>OpenAI GPT-3.5 Turbo integration</li>
+            </ul>
+            <a
+              href="https://github.com/Kevin-ace/AI_therapy"
+              target="_blank"
+            >
+              <img
+                src="assets/icons/github-icon.png"
+                alt="GitHub link"
+                width="80px"
+              />
+            </a>
+          </div>
           <div class="project-card">
             <h3>Stock Price Dashboard</h3>
             <p>
@@ -116,33 +168,26 @@
             </a>
           </div>
           <div class="project-card">
-            <h3>Weather App</h3>
+            <h3>Sign Language Translator</h3>
             <p>
-              A simple weather application that allows users to search for
-              weather information by city name. The app fetches data from the
-              OpenWeatherMap API and displays the current temperature, humidity,
-              and weather description. Users can also toggle between Celsius and
-              Fahrenheit.
+              A real-time sign language translation system using computer vision and machine learning.
             </p>
+            <ul>
+              <li>Real-time hand gesture recognition</li>
+              <li>Sign language to text translation</li>
+              <li>User-friendly web interface</li>
+              <li>Translation history</li>
+              <li>Supports common signs and gestures</li>
+            </ul>
+            <h4>Technology Stack</h4>
+            <ul>
+              <li>Frontend: HTML5, CSS3, JavaScript</li>
+              <li>Backend: Python, Flask</li>
+              <li>ML: TensorFlow, MediaPipe</li>
+              <li>Computer Vision: OpenCV</li>
+            </ul>
             <a
-              href="https://github.com/Kevin-ace/simple_weather_app.git"
-              target="_blank"
-            >
-              <img
-                src="assets/icons/github-icon.png"
-                alt="GitHub link"
-                width="80px"
-              />
-            </a>
-          </div>
-          <div class="project-card">
-            <h3>SneakerSpace (Ongoing)</h3>
-            <p>
-              A modern e-commerce platform for premium sneakers, featuring a
-              responsive design and seamless user experience.
-            </p>
-            <a
-              href="https://github.com/Kevin-ace/Sneakerspaceshop.git"
+              href="https://github.com/Kevin-ace/sign_language_translator"
               target="_blank"
             >
               <img
@@ -163,26 +208,6 @@
             </p>
             <a
               href="https://github.com/Kevin-ace/kaggle_dataset.git"
-              target="_blank"
-            >
-              <img
-                src="assets/icons/github-icon.png"
-                alt="GitHub link"
-                width="80px"
-              />
-            </a>
-          </div>
-          <div class="project-card">
-            <h3>Personal Expense Tracker</h3>
-            <p>
-              The Personal Expense Tracker is a desktop application built using
-              Python and tkinter. It helps users manage and visualize their
-              expenses. The application features an interactive interface for
-              adding, summarizing, and visualizing expenses with an emphasis on
-              user experience through color schemes and responsive design
-            </p>
-            <a
-              href="https://github.com/Kevin-ace/expense-tracker.git"
               target="_blank"
             >
               <img
@@ -268,6 +293,18 @@
       </div>
     </section>
 
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-card">
+          <p>"Kevin is an exceptional developer with a keen eye for detail. His ability to solve complex problems is unparalleled." - Colleague</p>
+        </div>
+        <div class="testimonial-card">
+          <p>"Working with Kevin has been a pleasure. He consistently delivers high-quality work on time." - Client</p>
+        </div>
+      </div>
+    </section>
+
     <section class="contact" id="contact">
       <div class="container">
         <h2>Let's Connect!</h2>
@@ -292,7 +329,7 @@
           >
             <img
               src="assets/icons/linkedin-icon.png"
-              alt="GitHub link"
+              alt="LinkedIn link"
               width="35px"
             />
             LinkedIn
@@ -302,13 +339,13 @@
             target="_blank"
             class="social-link"
           >
-            <img src="assets/icons/insta.png" alt="GitHub link" width="35px" />
+            <img src="assets/icons/insta.png" alt="Instagram link" width="35px" />
             Instagram
           </a>
           <div class="social-link">
             <img
               src="assets/icons/email-icon.png"
-              alt="GitHub link"
+              alt="Email link"
               width="45px"
             />
             <a href="mailto:kevinkipruto83@gmail.com">Email Me</a>
@@ -331,6 +368,16 @@
         if (currentPath.includes(href)) {
           link.classList.add("active");
         }
+      });
+
+      // Smooth scroll effect
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
       });
     </script>
     <footer>

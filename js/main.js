@@ -15,6 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Smooth scroll for new sections
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
     // Function to set active link based on scroll position
     const setActiveLinkOnScroll = () => {
         const sections = document.querySelectorAll('section'); // Assuming each section has the tag <section>
